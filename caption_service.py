@@ -28,7 +28,7 @@ def analyze_image():
         result = client.analyze_from_url(
             image_url=image_url,
             visual_features=[VisualFeatures.CAPTION],
-            gender_neutral_caption=True,  # Optional (default is False)
+            gender_neutral_caption=True,  # Optional (default is False) ore true?
         )
         
         # Check and return the result
